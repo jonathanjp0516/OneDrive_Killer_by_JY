@@ -1,6 +1,6 @@
 # OneDrive Killer
 
-A robust PowerShell script designed to completely eradicate Microsoft OneDrive from Windows 10/11, prevent it from reinstalling, and restore your hijacked user folders (Desktop, Documents, Pictures) back to your local profile.
+A simple PowerShell script designed to completely eradicate Microsoft OneDrive from Windows 10/11, prevent it from reinstalling, and restore your hijacked user folders (Desktop, Documents, Pictures) back to your local profile.
 
 ## CRITICAL WARNING: Read Before Executing
 This script modifies your system's registry to point your user folders back to your local profile. **It DOES NOT automatically move your physical files.** After running this script and restarting File Explorer, your Desktop might appear empty. **Do not panic!** Your files are safe. 
