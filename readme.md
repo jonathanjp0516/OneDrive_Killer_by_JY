@@ -41,6 +41,8 @@ Windows blocks unsigned PowerShell scripts by default. You can bypass this secur
 
 
 ## Important Note on File Migration:
-    This script updates the Windows Registry to point your user folders (Desktop, Documents, Pictures) back to your local profile. However, it does not move your physical files. After running this script and restarting Explorer, your Desktop might appear empty. Don't panic! Simply navigate to C:\Users\<YourUsername>\OneDrive\, cut your files, and paste them into your local folders.
+    This script updates the Windows Registry to point your user folders (Desktop, Documents, Pictures) back to your local profile. 
+    However, it does not move your physical files. After running this script and restarting Explorer, your Desktop might appear empty.
+    Don't panic! Simply navigate to C:\Users\<YourUsername>\OneDrive\, cut your files, and paste them into your local folders.
 
 **Disclaimer: Use this script at your own risk. Always ensure you have backed up important files before modifying system registries.**
